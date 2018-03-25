@@ -6,6 +6,8 @@
     "type": "git",
     "url": "https://github.com/Mohd18/React-Project.git"
   },
+
+  "Author":"Mohammed",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "axios": "^0.18.0",
