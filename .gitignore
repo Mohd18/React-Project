@@ -2,6 +2,5 @@
 /config/
 /scripts/
 package-lock.json
-/src/App.test.js
 /src/registerServiceWorker.js
 
