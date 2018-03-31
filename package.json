@@ -1,13 +1,12 @@
 {
-  "name": "world-quackes",
-  "version": "1.0",
+  "name": "world-quakes",
+  "version": "1.0.0",
   "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/Mohd18/React-Project.git"
   },
-
-  "Author":"Mohammed",
+  "Author": "Mohammed",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "axios": "^0.18.0",
@@ -100,5 +99,18 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "description": "This web  application is written in React and Redux that proivdes the list of Earthquakes happening around the world in an hour or day or week or month in an interactive way. Rechats library is used to generate Graphs/Charts.",
+  "bugs": {
+    "url": "https://github.com/Mohd18/React-Project/issues"
+  },
+  "homepage": "https://github.com/Mohd18/React-Project#readme",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "Earth",
+    "Quakes"
+  ],
+  "author": "Mohammed",
+  "license": "ISC"
 }
