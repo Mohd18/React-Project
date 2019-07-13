@@ -7,6 +7,7 @@ import Chart from '../Components/Chart';
 import store from '../Store';
 import {earthquakes} from '../Actions/EarthQuakeActions';
 import EarthquakeDetails from '../Components/earthQuakeDetails';
+import classes from '../index.css'
 
 
 class EarthQuake extends React.Component{
@@ -69,7 +70,7 @@ class EarthQuake extends React.Component{
                     Earthquakes_PastMonth={() => this.props.getEarthquakes("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson")}
                 />  
 
-                <div className="listBtnChartBtn" >
+                <div className={classes.listBtnChartBtn} >
                     <ToggleList ToggleList = {this.ToggleList}>{this.state.listName}</ToggleList> 
                     <ToggleChart ToggleChart={this.ToggleChart}> {this.state.chartName} </ToggleChart>                     
                 </div> 
@@ -82,13 +83,13 @@ class EarthQuake extends React.Component{
                         }
                     </div>  
                     :
-                        <div className="loader">
+                        <div className={classes.loader}>
                            loading...
                         </div>                  
                  } 
 
 
-                    <div className='earthquake-details-block'>
+                    <div className={classes['earthquake-details-block']}>
                     {!this.state.show_list &&
                             this.props.earthquakeData.map((earthquake, i) => {
                                 return (

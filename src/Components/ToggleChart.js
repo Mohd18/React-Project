@@ -1,8 +1,9 @@
 import React from 'react';
+import classes from '../index.css'
 
 const ToggleChart = (props) => {
     return (
-        <button className="toggleBtn" onClick={props.ToggleChart}>{props.children}</button>
+        <button className={classes.toggleBtn} onClick={props.ToggleChart}>{props.children}</button>
     );
 };
 

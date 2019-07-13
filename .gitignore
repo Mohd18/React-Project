@@ -1,6 +1,6 @@
 /node_modules/
 /config/
-/scripts/
+/build/
 package-lock.json
 /src/registerServiceWorker.js
 
